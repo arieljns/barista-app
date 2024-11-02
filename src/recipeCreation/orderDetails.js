@@ -48,9 +48,9 @@ const OrderDetails = () => {
         })}
       </div>
       <div className="bottom-container">
-       
-          <button onClick={() => { handleOrderComplete(order.id) }}>Complete Order</button>
-   
+
+        <button onClick={() => { handleOrderComplete(order.id) }}>Complete Order</button>
+
       </div>
     </div>
   );
