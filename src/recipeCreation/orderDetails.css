@@ -1,0 +1,39 @@
+body{
+  padding: 20px;
+}
+
+.order-container{
+  padding: 25px;
+}
+
+.ingredient{
+  display: flex;
+  flex-direction: column;
+}
+
+.instruction{
+  margin-bottom: 70px;
+}
+
+.bottom-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white; /* Optional: Add a background color */
+  padding: 10px;
+  text-align: center; /* Center the button */
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for visual separation */
+}
+
+.bottom-container button {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  background-color: brown; /* Customize button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+

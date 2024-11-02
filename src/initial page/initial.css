@@ -1,0 +1,26 @@
+
+
+
+body{
+  padding:20px;
+  align-items: center;
+  align-content: center;
+}
+
+.barista-choice{
+  height: 100px;
+  margin-top: 20px;
+  background-color: orange;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+}
+
+
+.choices-container{
+  display: flex;
+  flex-direction: column;
+
+}
